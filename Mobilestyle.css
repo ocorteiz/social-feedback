@@ -1,0 +1,55 @@
+@media screen and (max-width:450px) {
+    
+    body {
+        background-image: url(images/bg-pattern-bottom-mobile.svg);
+        background-size: cover;
+        background-size: 120%;
+        background-color: brown;
+    }
+
+    section#cima {
+        background-image: url(images/bg-pattern-top-mobile.svg);
+        flex-direction: column;
+        height: auto;
+        text-align: center;
+        margin: 50px 10px;
+    }
+
+    section#cima h1 {
+        font-size: 3em;
+    }
+
+    div#star {
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    div#star div {
+        width: 50%;
+        margin: 10px auto;
+        font-size: .9em;
+    }
+
+    div#star p {
+        margin-top: .5em;
+        display: block;
+    }
+
+    section#baixo {
+        margin: 0px 10px;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+    }
+
+    div#coment {
+        max-width: 300px;
+    }
+
+    div.c2 {
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}
